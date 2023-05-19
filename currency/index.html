@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="Pheading">Currency Converter</h1>
+        <label class="labeling" for="date">Enter Date of Which you want to calculate</label>
+        <input type="date" name="date" id="date" class="inputMethod">
+        <label class="labeling" for="number">Enter Amount</label>
+        <input type="number" name="number" id="number"  value="0"class="inputMethod"placeholder="Enter Amount">
+        <label class="labeling" for="from">From</label>
+        <select name="from" id="from" class="inputMethod">
+            <option value="pkr">Pakistani Rupee (pkr)</option>
+            <option value="usd">US Dollar (usd)</option>
+            <option value="aed">UAE Dirham (aed)</option>
+            <option value="afn">Afghanistan Afghani (afn)</option>
+            <option value="all">Albanian Lek (all)</option>
+            <option value="amd">Armenian Dram (amd)</option>
+            <option value="sar">Saudi Riyal (sar)</option>
+            
+        </select>
+
+        <label class="labeling" for="date">To</label>
+        <select name="now" id="now" class="inputMethod">
+            <option value="pkr">Pakistani Rupee (pkr)</option>
+            <option value="usd">US Dollar (usd)</option>
+            <option value="aed">UAE Dirham (aed)</option>
+            <option value="afn">Afghanistan Afghani (afn)</option>
+            <option value="all">Albanian Lek (all)</option>
+            <option value="amd">Armenian Dram (amd)</option>
+            <option value="sar">Saudi Riyal (sar)</option>
+        </select>
+        <button id="btn">Submit</button>
+
+        <div id="insert" class="inserting"></div>
+        <div id="insert2" class="inserting"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

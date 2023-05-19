@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Open+Sans&family=Work+Sans&display=swap');
+.Pheading{
+    font-size:3rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+.container{
+    background: url('bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.inputMethod{
+    width: 48rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin: 1rem
+    
+}
+
+.labeling{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+#insert{
+    margin: 2rem;
+}
+.inserting{
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+#btn{
+    width: 7rem;
+    border-radius: 12px;
+    padding: 11px;
+    background: #4b8709;
+    color: white;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+
+}
